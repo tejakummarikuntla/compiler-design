@@ -73,3 +73,25 @@ i=i-2;
 }
 }
 
+
+#####################################
+   OUTPUT:
+
+Enter Input:(a+a)*a
+ 
+ 
+Stack   Input   Action
+(       a+a)*a  Shifted
+(a      +a)*a   Shifted
+(E      +a)*a   Reduced
+(E+     a)*a    Shifted
+(E+a    )*a     Shifted
+(E+E    )*a     Reduced
+(E      )*a     Reduced
+(E)     *a      Shifted
+E       *a      Reduced
+E*      a       Shifted
+E*a             Shifted
+E*E             Reduced
+E               Reduced
+String Accepted
