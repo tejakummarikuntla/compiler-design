@@ -1,11 +1,11 @@
 ### Steps to Compile and Run
 
-> flex f.l
-This Generates `lex.yy.c` file.
-> cc lex.yy.c -ll
-This Generates `a.out` file.
->./a.out input.c
-This Generates the output
+> flex f.l <br></br>
+This Generates `lex.yy.c` file. <br></br>
+> cc lex.yy.c -ll <br></br>
+This Generates `a.out` file. <br></br>
+>./a.out input.c <br></br>
+This Generates the output <br></br>
 
 ```
 void is a keyword
