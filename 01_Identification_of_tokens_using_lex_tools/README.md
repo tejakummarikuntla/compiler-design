@@ -1,10 +1,13 @@
 ### Steps to Compile and Run
 
-> flex f.l
+```
+1. $ flex f.l
 This Generates `lex.yy.c` file.
-> cc lex.yy.c -ll
+2. $ cc lex.yy.c -ll
 This Generates `a.out` file.
->./a.out input.c
+3. $ ./a.out input.c
+```
+
 This Generates the output
 
 ```
