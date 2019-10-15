@@ -11,7 +11,7 @@ This generates `y.tab.h` and `y.tab.c`
 This Generates Output:
 
 ```
-2*4 <>br</>
-5
+2*4
+8
 
 ```
