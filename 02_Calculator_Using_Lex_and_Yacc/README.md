@@ -16,4 +16,5 @@ This Generates Output:
 
 ```
 Workflow
+![Lex + Yacc](https://github.com/tejakummarikuntla/compiler-design/blob/master/02_Calculator_Using_Lex_and_Yacc/workflow.png)
 
