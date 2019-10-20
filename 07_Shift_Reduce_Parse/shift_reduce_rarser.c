@@ -71,5 +71,6 @@ stk[z+1]='\0';
 printf("\n$%s\t%s$\t%s",stk,a,ac);
 i=i-2;
 }
+getch();
 }
 

@@ -70,7 +70,7 @@ scanf("%s",str);
 len=strlen(str);
 str[len]='$';
 E();
-If((str[i]=='$')&&(f==0))
+if((str[i]=='$')&&(f==0))
 printf("\nString sucessfully parsed!");
 else
 printf("\nSyntax Error!");
